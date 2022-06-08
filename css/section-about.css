@@ -1,0 +1,23 @@
+.section-about{
+    background: url('../assets/images/section-about/about-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 67px 0px 304px 0px;
+}
+
+.section-about__text{
+    text-align: center;
+    font-family: 'Tobi';
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 655px;
+    margin: 0 auto;
+}
+
+.section-about__content{
+    margin-top: 210px;
+}
