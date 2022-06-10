@@ -49,7 +49,6 @@ navLinks.forEach((item) => {
     item.addEventListener('click', (e) => scrollToSection(e))
 })
 
-// ./maks_korzh_-_svoy_dom_muzati.net.mp3
 const audio = document.querySelector('.audio');
 const playAudio = document.querySelector('.play-audio');
 
@@ -58,7 +57,7 @@ const startAudio = () => {
         playAudio.classList.remove('active')
         audio.src = '' 
     }else{
-        audio.src = './maks_korzh_-_svoy_dom_muzati.net.mp3';
+        audio.src = './assets/sounds/cave.mp3';
         playAudio.classList.add('active')
     }
 }
